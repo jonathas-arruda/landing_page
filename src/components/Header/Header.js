@@ -1,7 +1,11 @@
+import Logo from "../../assets/images/svg/Logo";
+import Navbar from "../Navbar/Navbar";
+
 const Header = () => {
   return (
-    <div className="bg-slate-200 flex justify-center ">
-      <p className="text-xl justify-center ">Hello World</p>
+    <div className="py-3 flex justify-around bg-white border-grey shadow-md w-full">
+        <Logo />
+        <Navbar />
     </div>
   );
 };
