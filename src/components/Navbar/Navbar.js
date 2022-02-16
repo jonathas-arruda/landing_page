@@ -11,13 +11,14 @@ const linksNavbar = [
 
 const Navbar = () => {
   return (
-    <nav className="md:w-[60%] lg:w-[45%]  ">
+    <nav className="md:w-[60%] lg:w-[30%]  ">
+        
         <Sidebar/>
-      <ul className="hidden md:flex font-semibold whitespace-nowrap justify-between w-[60%] ml-16 ">
+      <ul className="hidden md:flex font-semibold whitespace-nowrap justify-end    ">
         {linksNavbar.map((link) => {
           return (
               
-          <li className="mx-3" key={link.key}>
+          <li className="px-[5%]" key={link.key}>
             {link.key}
           </li>
           );
@@ -28,6 +29,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-//paddin desalinhado
-//responsividade do container
-// sm:w-[70%]  lg:w-[70%] mx-8  xl:w-[70%] 2xl:w-[70%]
