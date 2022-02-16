@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   return (
-    <div className="py-3 flex justify-around bg-white border-grey shadow-md w-full">
+    <div className="py-3 flex justify-around items-center bg-white border-grey shadow-md w-full">
         <Logo />
         <Navbar />
     </div>
