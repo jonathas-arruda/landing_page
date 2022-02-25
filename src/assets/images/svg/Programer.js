@@ -1,7 +1,7 @@
 const Programer = () => {
   return (
     <svg
-      className="h-[450px]"
+      className="w-full "
       viewBox="0 0 428 375"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -14,13 +14,13 @@ const Navbar = () => {
     <nav className="md:w-[60%] lg:w-[30%]  ">
         
         <Sidebar/>
-      <ul className="hidden md:flex font-semibold whitespace-nowrap justify-end    ">
+      <ul className="hidden md:flex font-semibold whitespace-nowrap justify-end">
         {linksNavbar.map((link) => {
           return (
               
-          <li className="px-[5%]" key={link.key}>
+          <a className="px-[4%]" key={link.key}>
             {link.key}
-          </li>
+          </a>
           );
         })}
       </ul>
